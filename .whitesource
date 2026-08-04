@@ -17,19 +17,18 @@
   },
   "remediateSettings": {
     "workflowRules": {
-      "enabled": true
+      "enabled": false
     }
   },
-   "imageSettings":{
-       "imageTracing":{
-           "enableImageTracingPR": false,
-           "addRepositoryCoordinate": false,
-           "addDockerfilePath": false,
-           "addMendIdentifier": false
-       }
-   }
+  "imageSettings": {
+    "imageTracing": {
+      "enableImageTracingPR": false,
+      "addRepositoryCoordinate": false,
+      "addDockerfilePath": false,
+      "addMendIdentifier": false
+    }
+  },
+  "scanSettingsSAST": {
+    "enableScan": false
+  }
 }
-
-
-
-
